@@ -23,8 +23,8 @@ class MainActivity : Activity() {
 
         mapView = binding.mapView
         mapView.getMapAsync { map ->
-            map.setStyle("https://demotiles.maplibre.org/style.json")
-            map.cameraPosition = CameraPosition.Builder().target(LatLng(0.0,0.0)).zoom(1.0).build()
+            map.setStyle("https://4f0a-185-6-98-36.ngrok-free.app/styles/basic-preview/style.json")
+            map.cameraPosition = CameraPosition.Builder().target(LatLng(51.5,10.5)).zoom(5.0).build()
         }
     }
 
